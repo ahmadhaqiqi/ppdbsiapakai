@@ -1,5 +1,5 @@
 /**
- * Google Apps Script Backend for SPB SD
+ * Google Apps Script Backend for SPMB SD
  * Deploy as a Web App:
  * 1. Click "Deploy" -> "New deployment"
  * 2. Select type: "Web app"
