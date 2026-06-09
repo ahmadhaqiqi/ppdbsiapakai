@@ -57,9 +57,9 @@ export default function Home() {
               transition={{ duration: 0.6, delay: 0.1 }}
               className="text-5xl md:text-6xl font-extrabold text-slate-900 tracking-tight leading-tight mb-6"
             >
-              Membangun Generasi <br className="hidden md:block" />
+              H.E.B.A.T <br className="hidden md:block" />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-green-500">
-                Cerdas & Berkarakter
+                Hidup dengan Etika, Berakhlak dan Berprestasi
               </span>
             </motion.h1>
             
@@ -69,7 +69,7 @@ export default function Home() {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-lg md:text-xl text-slate-600 mb-10 leading-relaxed"
             >
-              Bergabunglah bersama {settings?.namaSekolah || 'SDN Harapan Bangsa'}. Kami berkomitmen memberikan pendidikan dasar terbaik dengan fasilitas modern dan tenaga pendidik profesional.
+              Bergabunglah bersama {settings?.namaSekolah || 'SD Negeri Kramatwatu 1'}. Kami berkomitmen memberikan pendidikan dasar terbaik dengan fasilitas modern dan tenaga pendidik profesional.
             </motion.p>
             
             <motion.div
@@ -117,7 +117,7 @@ export default function Home() {
             {[
               {
                 icon: <BookOpen className="text-blue-500" size={32} />,
-                title: "Kurikulum Modern",
+                title: "Kurikulum Merdeka",
                 desc: "Menerapkan kurikulum merdeka belajar yang adaptif dengan perkembangan zaman dan teknologi."
               },
               {
