@@ -14,13 +14,16 @@ const SETTINGS_SHEET_NAME = "Pengaturan";
 const FOLDER_NAME = "SPMB 2026 SDN KRAMATWATU 1 FIKS";
 
 const DEFAULT_FORM_FIELDS = [
+  { id: "Jalur Pendaftaran", label: "Jalur Pendaftaran", type: "select", options: ["Domisili", "Afirmasi", "Mutasi"], required: true },
   { id: "Nama Lengkap", label: "Nama Lengkap", type: "text", required: true },
   { id: "NIK", label: "NIK", type: "text", required: true },
   { id: "Tempat Lahir", label: "Tempat Lahir", type: "text", required: true },
   { id: "Tanggal Lahir", label: "Tanggal Lahir", type: "date", required: true },
   { id: "Jenis Kelamin", label: "Jenis Kelamin", type: "select", options: ["Laki-laki", "Perempuan"], required: true },
+  { id: "Agama", label: "Agama", type: "select", options: ["Islam", "Kristen"], required: true },
   { id: "Alamat", label: "Alamat Lengkap", type: "textarea", required: true },
-  { id: "Nama Orang Tua", label: "Nama Orang Tua/Wali", type: "text", required: true },
+  { id: "Nama Ayah", label: "Nama Ayah", type: "text", required: true },
+  { id: "NIK Ayah", label: "NIK Ayah", type: "text", maxLength: 16, pattern: "[0-9]*", required: true },
   { id: "No HP", label: "No. WhatsApp Aktif", type: "text", required: true },
   { id: "Foto Siswa", label: "Pas Foto 3x4", type: "file", required: true },
   { id: "Kartu Keluarga", label: "Kartu Keluarga", type: "file", required: true },
