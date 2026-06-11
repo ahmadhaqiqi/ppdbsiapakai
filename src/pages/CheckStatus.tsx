@@ -58,7 +58,7 @@ export default function CheckStatus() {
         
         doc.setFontSize(16);
         doc.setFont('helvetica', 'bold');
-        doc.text('BUKTI KELULUSAN SPMB 2026', 105, currentY, { align: 'center' });
+        doc.text('BUKTI KELULUSAN SPMB', 105, currentY, { align: 'center' });
         currentY += 8;
         doc.setFontSize(12);
         doc.setFont('helvetica', 'normal');
@@ -74,7 +74,7 @@ export default function CheckStatus() {
         console.error("Error adding kop surat", e);
         doc.setFontSize(16);
         doc.setFont('helvetica', 'bold');
-        doc.text('BUKTI KELULUSAN SPMB 2026', 105, currentY, { align: 'center' });
+        doc.text('BUKTI KELULUSAN SPMB', 105, currentY, { align: 'center' });
         currentY += 8;
         doc.setFontSize(12);
         doc.setFont('helvetica', 'normal');
@@ -91,7 +91,7 @@ export default function CheckStatus() {
     } else {
       doc.setFontSize(16);
       doc.setFont('helvetica', 'bold');
-      doc.text('BUKTI KELULUSAN SPMB 2026', 105, currentY, { align: 'center' });
+      doc.text('BUKTI KELULUSAN SPMB', 105, currentY, { align: 'center' });
       currentY += 8;
       doc.setFontSize(12);
       doc.setFont('helvetica', 'normal');
@@ -108,7 +108,7 @@ export default function CheckStatus() {
     
     // Content
     doc.setFontSize(11);
-    doc.text('Berdasarkan hasil seleksi Sistem Penerimaan Murid Baru (SPMB),', 20, currentY);
+    doc.text('Berdasarkan hasil seleksi Penerimaan Peserta Didik Baru (SPMB),', 20, currentY);
     currentY += 7;
     doc.text('menyatakan bahwa:', 20, currentY);
     currentY += 13;
