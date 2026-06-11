@@ -322,7 +322,7 @@ export default function CheckStatus() {
                     </div>
                     <div>
                       <span className="block text-slate-500 mb-1">Nama Lengkap</span>
-                      <span className="font-semibold text-slate-900">{result.namaLengkap}</span>
+                      <span className="font-semibold text-slate-900">{result.NamaLengkap}</span>
                     </div>
                   </div>
                 </div>
